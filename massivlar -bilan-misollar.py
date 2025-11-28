@@ -125,25 +125,26 @@
 # massiv_1. extend (massiv_2)
 # print (massiv_1)
 
-arr = [2, 5, 3, 2, 8, 5, 2]
-n = len(arr)
+# arr = [2, 5, 3, 2, 8, 5, 2]
+# n = len(arr)
 
-print("Takrorlangan elementlar:")
+# print("Takrorlangan elementlar:")
 
-for i in range(n):
-    counted = False
-    for k in range(i):
-        if arr[k] == arr[i]:
-            counted = True
-            break
+# for i in range(n):
+#     counted = False
+#     for k in range(i):
+#         if arr[k] == arr[i]:
+#             counted = True
+#             break
 
-    if counted:
-        continue
+#     if counted:
+#         continue
 
-    count = 0
-    for j in range(n):
-        if arr[i] == arr[j]:
-            count = count+ 1
+#     count = 0
+#     for j in range(n):
+#         if arr[i] == arr[j]:
+#             count = count+ 1
 
-    if count > 1:
-        print(f"{arr[i]} → {count} marta")
+#     if count > 1:
+#         print(f"{arr[i]} → {count} marta")
+print("javohir")
