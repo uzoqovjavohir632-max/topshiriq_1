@@ -86,7 +86,12 @@
 #       print("bu son toq")      
 #     else:
 #        print("bu son toq emas")  
-# funksiya()       
+# funksiya()   
+# def ism():
+#    ism=input("ismni kiriting:  ")
+#    print("Xush kelipsiz", ism )
+# ism()
+
 
 
 # def funksiya():
@@ -137,9 +142,38 @@
 # funksiya ()   
 
 
-def funksiya():
-    matn = input("Matn kiriting: ")
-    teskari = matn[::-1]
-    print("Teskari matn:", teskari)
+# def funksiya():
+#     matn = input("Matn kiriting: ")
+#     teskari = matn[::-1]
+#     print("Teskari matn:", teskari)
 
-funksiya()
+# funksiya()
+
+
+# def birinchi_harf():
+#     matn= input("matnni kiriting:  ")
+#     if len(matn) > 0:
+#        print("Matnning birinchi harfi:", matn[0])
+#     else:
+#         print("Matn bo'sh!")
+
+# birinchi_harf()
+
+
+# def funksiya (son):
+
+#     for i in range (1 , 11 ):
+#         v = son * i
+#         print(f"{son} x {i} = {v}")
+
+# son = int(input("sonni kiriting  "))
+# funksiya(son)
+
+
+def funksiya(son):
+    natija =  son **2 
+    return natija
+n= int (input("n sonni kiriting "))
+
+natija = funksiya(n) 
+print ("sonning kvadrati", natija)

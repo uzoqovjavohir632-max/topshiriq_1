@@ -147,4 +147,3 @@
 
 #     if count > 1:
 #         print(f"{arr[i]} → {count} marta")
-print("javohir")
