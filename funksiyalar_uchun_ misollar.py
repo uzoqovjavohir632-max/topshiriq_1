@@ -170,10 +170,86 @@
 # funksiya(son)
 
 
-def funksiya(son):
-    natija =  son **2 
-    return natija
-n= int (input("n sonni kiriting "))
+# def funksiya(son):
+#     natija =  son **2 
+#     return natija
+# n= int (input("n sonni kiriting "))
 
-natija = funksiya(n) 
-print ("sonning kvadrati", natija)
+# natija = funksiya(n) 
+# print ("sonning kvadrati", natija)
+
+
+# def yigindi ():
+#     a=int(input("a sonni kiriting : "))
+#     b=int(input("b sonni kiriting : "))
+#     return a+b 
+    # natija = yigindi() 
+# print ( "yigindi =", natija) 
+    
+
+# def juft_yoki_toq ():
+#     n=int(input("n sonni kiriting "))
+#     if n % 2 == 0 :
+#        return "juft"
+#     else:
+#         return "toq"
+# natija = juft_yoki_toq ()
+# print ( natija)
+
+
+# def funksiya():
+#     a = float(input("1-sonni kiriting: "))
+#     b = float(input("2-sonni kiriting: "))
+#     c = float(input("3-sonni kiriting: "))
+
+#     if a >= b and a >= c:
+#         return a
+#     elif b >= a and b >= c:
+#         return b
+#     else:
+#         return c
+
+# natija = funksiya()
+# print("Eng katta son =", natija)
+
+
+# def musbat():
+#     n=int(input("sonni kiriting:  "))
+#     if n>0 :
+#         return "true "
+#     else:
+#         return "False"
+# natija =  musbat()
+# print(natija)
+
+# def matn_uzunligi(): 
+#     matn = input ("matnni kiriting :  ")
+#     return len(matn )
+# natija= matn_uzunligi()
+# print ( "matn uzunligi= " , natija)
+
+
+# def eng_kichik_top():
+#     royxat = list(map(int, input("Sonlarni bo'sh joy bilan kiriting: ").split()))
+#     return min(royxat)
+
+# natija = eng_kichik_top()
+# print("Eng kichik son =", natija)
+
+
+# def eng_katta_top():
+#     royxat = list(map(int, input("Sonlarni bo'sh joy bilan kiriting: ").split()))
+#     return max(royxat)
+
+# natija = eng_katta_top()
+# print("Eng katta son =", natija)
+
+
+def faktorial():
+    n=int(input("sonni kiriting:  "))
+    s=1 
+    for i in range (1 , n+1):
+       s= s*i 
+    return   s
+natija = faktorial()
+print (  natija)
