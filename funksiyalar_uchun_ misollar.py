@@ -245,11 +245,50 @@
 # print("Eng katta son =", natija)
 
 
-def faktorial():
-    n=int(input("sonni kiriting:  "))
-    s=1 
-    for i in range (1 , n+1):
-       s= s*i 
-    return   s
-natija = faktorial()
-print (  natija)
+# def faktorial():
+#     n=int(input("sonni kiriting:  "))
+#     s=1 
+#     for i in range (1 , n+1):
+#        s= s*i 
+#     return   s
+# natija = faktorial()
+# print (  natija)
+
+
+# def soliq( ):
+#     narx= int(input("narxni kiriting:  "))
+#     soliqli_narx = narx * 1.12
+#     return soliqli_narx 
+# nimadir = soliq( )
+# print ( "soliq qoshib hisoblangan narx =", nimadir)
+
+
+# def yil (): 
+#     yil = int(input("yilni kiriting:  "))
+#     if yil % 4 == 0 :
+#         return "kabisa yili "
+#     else:
+#         return "kabisa yili emas"
+# natija = yil()
+# print ("kiritilgan yil " , natija )    
+
+
+
+# def kod():
+#     parol= input("parolni kiriting:  ")
+#     if len( parol) > 8 :
+#         return "parol kuchli"
+#     else :
+#         return "parol kuchli emas"
+# parollar = kod()
+# print ( "siz kiritgan " , parollar)
+
+
+
+def sanash(matn):
+    son = matn.count("a")
+    return son
+
+matn = input("Matn kiriting: ")
+print("a harflar soni:", sanash(matn))
+
