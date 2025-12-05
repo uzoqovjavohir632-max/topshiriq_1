@@ -58,10 +58,36 @@
 # print("Kvadrati:", natija)
 
 
-def yigindi( a, b):
-    c= a+ b 
-    return c 
-a= float(input("1-sonni kiriting:  "))
-b= float(input("2-sonni kiriting:  "))
-natija = yigindi(a, b)
-print("Yig'indi:", natija)
+# def yigindi( a, b):
+#     c= a+ b 
+#     return c 
+# a= float(input("1-sonni kiriting:  "))
+# b= float(input("2-sonni kiriting:  "))
+# natija = yigindi(a, b)
+# print("Yig'indi:", natija)
+
+
+# def juft_toqlikka_tekshirish (son):
+#     if son % 2 == 0 :
+#           return "juft"
+#     else :
+#          return  "toq"
+
+# n= int (input(" sonni kiriting:  "))
+
+# victus= juft_toqlikka_tekshirish (n )
+# print ("kiritilgan son" , victus)
+
+
+def kattasi(a , b , c ):
+    katta =a 
+    if b > katta :
+        katta = b 
+    if c > katta :
+        katta = c
+    return katta 
+x = int(input('1- sonni kiriting:  '))
+y = int(input('2- sonni kiriting:  '))
+z = int(input('3- sonni kiriting:  '))
+natija = kattasi(x , y , z )
+print ('eng katta son:  ' , natija)
